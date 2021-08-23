@@ -1,2 +1,5 @@
 # WAEP-SRGAN
-Wide Activation with Enhanced Perception Super Resolution GAN network with ESRGAN as the baseline
+Wide Activation with Enhanced Perception Super Resolution GAN 
+
+Over the last decades, convolutional neural networks have provided remarkable improvement in single image super-resolution (SISR) as compared to classical super resolution algorithms. Among recent advances, GAN based networks focusing on perceptual quality provides photo-realistic SR results. However, visual perception is a subjective matter and there is still room for improvements. Even though recent approaches like ESRGAN provides perceptually enhanced SR images, it suffers from discolored artifacts. Moreover, super resolution is an ill posed problem but many state-of-the-art methods instead use a deterministic mapping approach and ignore the stochastic variation. Hence, we propose a novel GAN based network architecture with wider activation channels, regularization in the network and a novel loss function based on LPIPS. Benefiting from these improvements the proposed WAEP-SRGAN produces more realistic images with better visual quality and reduced artefacts. The performance gains of our method has been quantified using MSE, perceptual and no reference based metrices.
+
