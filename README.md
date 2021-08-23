@@ -13,5 +13,6 @@ Major Modifications over ESRGAN (baseline) :
 
 - Used wider activation maps in Generator and Discriminator both (64à128). This allowed more information available to deeper layers.
 - Added gaussian noise in discriminator: Helped in bringing more stochasticity in the network, unlike ESRGAN which is totally deterministic. It challenges the Discriminator to recognize the noisy fake and real images and facilitates better convergence.
+
  ![image](https://user-images.githubusercontent.com/74488693/130466774-626f2213-881a-4511-ba0d-077e4d26b2e2.png)
 
